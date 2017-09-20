@@ -8,8 +8,9 @@
   <title>CES</title>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="CSS/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:700|Poppins|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -39,22 +40,56 @@
   <div class = "pimg1" >
     <div class = "ptext">
       <span class = "border">
-        Ces Website
+        Center For Entreprenurship Studies
       </span>
     </div>
   </div>
 
 
-  <section id="showcase">
+
+
+
+  <section id="showcase2">
     <div class = "container">
       <div class = "row">
         <div class = "col-md-6 col-sm-6">
+          <div class = "showcase-left2">
+            <p>
+              Text: The WSU Center for Entrepreneurial Studies promotes, supports, and facilitates entrepreneurial learning, innovative skill building and student venture creation. The WSU Center for Entrepreneurial Studies desires to bring visibility to WSU’s entrepreneurial endeavors and to positively impact its reputation through the support and facilitation of top-tier academic research, highly visible events, student success in external competitions, student venture launch and career placement in existing firms.
+            </p>
+          </div>
+        </div>
+        <br>
+          <div class = "col-md-6 col-sm-6 col-lg-6">
+            <div class="showcase-right2">
+              <h1>Introduction</h1>
+                <p>
+                  The Center serves as a leader in WSU’s university-wide entrepreneurial initiatives, providing an epicenter for students to learn, create and launch ventures. Housed within the Carson College of Business on WSU’s Pullman Campus, the Center offers events, scholarship programs, clubs and organizations and a business plan competition as avenues for graduate and undergraduate students to pursue their entrepreneurial journey.  The Center is an open collaboration resource for students and entrepreneurs from all WSU majors and academic programs and welcomes cross-disciplinary venture teams.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class = "pimg4" >
+    <div class = "ptext2">
+      <span class = "border">
+      </span>
+    </div>
+  </div>
+
+  <section id="showcase">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-6 col-sm-6 col-lg-6">
           <div class = "showcase-left">
               <img src = "images/Students1.png">
           </div>
         </div>
         <br>
-          <div class = "col-md-6 col-sm-6">
+          <div class = "col-md-6 col-sm-6 col-lg-6">
             <div class="showcase-right">
               <h1>engage</h1>
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sed commodi fuga aut saepe ducimus impedit enim quae mollitia natus ipsa magnam dolor, veritatis quam eaque odio adipisci, sapiente praesentium?</p>
@@ -70,7 +105,7 @@
   <div class = "pimg2" >
     <div class = "ptext">
       <span class = "border trans">
-        Image text 2
+
       </span>
     </div>
   </div>
@@ -78,14 +113,14 @@
   <section id="info1">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-6 col-sm-6 col-lg-6">
           <div class="info-left">
             <img src="images/coug.png">
           </div>
         </div>
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-6 col-sm-6 col-lg-6">
           <div class="info-right">
-            <h2>Get To Know Google Home</h2>
+            <h2>Learn</h2>
             <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
             <br>
             <a class="btn btn-default btn-lg">Read More</a>
@@ -98,7 +133,7 @@
   <div class = "pimg3" >
     <div class = "ptext">
       <span class = "border trans">
-        Image text 3
+
       </span>
     </div>
   </div>
@@ -106,14 +141,14 @@
   <section id="info2">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-6 col-sm-6 col-lg-6">
           <div class="info-left">
             <img src="images/cougcircle.png">
           </div>
         </div>
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-6 col-sm-6 col-lg-6">
           <div class="info-right">
-            <h2>Get To Know Google Home</h2>
+            <h2>Launch</h2>
             <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
             <br>
             <a class="btn btn-default btn-lg">Read More</a>
@@ -126,7 +161,7 @@
   <div class = "pimg1" >
     <div class = "ptext">
       <span class = "border trans">
-        Ces Website
+
       </span>
     </div>
   </div>
@@ -137,10 +172,20 @@
   <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
   window.sr = ScrollReveal();
+          sr.reveal('.showcase-left2', {
+            duration: 1500,
+            origin:'bottom',
+            distance:'200px'
+          });
+          sr.reveal('.showcase-right2', {
+            duration: 1500,
+            origin:'right',
+            distance:'200px'
+          });
           sr.reveal('.showcase-left', {
             duration: 2000,
             origin:'bottom',
-            distance:'300px'
+            distance:'200px'
           });
           sr.reveal('.showcase-right', {
             duration: 2000,
@@ -155,13 +200,13 @@
           sr.reveal('.info-left', {
             duration: 2000,
             origin:'left',
-            distance:'300px',
+            distance:'50px',
             viewFactor: 0.2
           });
           sr.reveal('.info-right', {
             duration: 2000,
             origin:'right',
-            distance:'300px',
+            distance:'50px',
             viewFactor: 0.2
           });
 
@@ -185,6 +230,16 @@
         });
       });
   </script>
+
+<footer class="footer">
+      <div class = "border">
+        <a href="#" class="fa fa-facebook"></a>
+         &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-twitter"></a>
+         &nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+      </div>
+</footer>
 
 </body>
 
